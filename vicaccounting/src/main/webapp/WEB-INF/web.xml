@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SayHello</servlet-name>
+  	<display-name>SayHello</display-name>
+  	<description></description>
+  	<servlet-class>co.com.vicpanizza.SayHello</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SayHello</servlet-name>
+  	<url-pattern>/SayHello</url-pattern>
+  </servlet-mapping>
 </web-app>
